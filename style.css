@@ -1,0 +1,86 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: dodgerblue;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    height: 60px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.nav-item {
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(36, 129, 236);
+}
+
+.background {
+    margin: 20px;
+}
+
+.offer-header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.about-header {
+    color: black;
+    margin: 40px;
+}
+
+.main-landing {
+    margin: 40px;
+    color: black;
+}
+
+.sign-container {
+    color: black;
+    margin: 40px;
+    border: 3px solid black;
+    padding: 0px;
+    text-align: left;
+}
